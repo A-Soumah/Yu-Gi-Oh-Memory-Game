@@ -74,4 +74,8 @@ img{
     border-radius: 15%;
     font-size: 24px;
 }
-
+@media (max-width: 2900px) {
+    body {
+        zoom: 33%; /* Nur Desktop-Browser wie Chrome, Edge */
+    }
+}
